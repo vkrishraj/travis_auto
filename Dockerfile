@@ -1,6 +1,6 @@
 #Dockerfile
 FROM ubuntu:latest
-LABEL maintainer="jinojoe@gmail.com"
+LABEL maintainer="info1@cloudnloud.com"
 RUN apt-get update && \
 apt-get upgrade -y
 RUN apt-get install nginx -y
